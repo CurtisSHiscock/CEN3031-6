@@ -9,5 +9,5 @@ module.exports = {
   googleMaps: {
     key: ''
   },
-  port: 8080
+  port: process.env.PORT || 3000 
 };
